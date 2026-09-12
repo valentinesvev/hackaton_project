@@ -69,7 +69,7 @@
 Здесь можно добавить график распределения типов постов.
 
 ```markdown
-![Распределение типов Telegram-постов](`outputs/charts/posts_sales.png`)
+![Распределение типов Telegram-постов](./outputs/charts/posts_sales.png)
 ```
 
 ---
