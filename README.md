@@ -12,14 +12,13 @@ hackaton_project/
 ├── requirements.txt
 ├── data/
 │   ├── raw/          # исходные продажи и Telegram-посты
-│   ├── processed/    # EDA и обработанные данные
-│   └── mock/         # synthetic/mock данные для проверки MVP
-├── notebooks/        # synthetic experiment
+│   ├── processed/    # EDA и обработанные данные, post classifier
+├── notebooks/        # synthetic data experiment
 ├── src/
 │   ├── bot/          # Telegram-интерфейс
 │   └── core/         # БД, attribution, импорт, quality checks
 └── outputs/
-    └── charts/       # графики EDA и эксперимента
+    └── charts/       # графики EDA и эксперимента, скрины и схема базы данных наглядная
 ```
 
 ### Что где смотреть
