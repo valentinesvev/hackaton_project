@@ -84,7 +84,7 @@ cd src
 python -m bot.main
 ```
 
-SQLite-база создаётся автоматически в `data/bot.db`.
+SQLite-база создаётся автоматически в `src/data/bot.db`.
 
 ## Как пользоваться ботом
 
