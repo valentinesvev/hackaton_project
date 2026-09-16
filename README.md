@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ### 2. Настроить `.env`
 
 ```bash
-cp .env.example .env
+cp src/.env.example src/.env
 ```
 
 Заполнить:
@@ -64,7 +64,7 @@ ACQUIRING_RATE=0.03
 ATTRIBUTION_WINDOW_DAYS=30
 ```
 
-`BOT_TOKEN`, `HASH_SALT`, `.env` и `data/bot.db` не должны попадать в GitHub.
+`BOT_TOKEN`, `HASH_SALT`, `src/.env` и `data/bot.db` не должны попадать в GitHub.
 
 
 ## Проверка
