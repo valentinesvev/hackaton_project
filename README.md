@@ -18,7 +18,11 @@ hackaton_project/
 │   ├── bot/          # Telegram-интерфейс
 │   └── core/         # БД, attribution, импорт, quality checks
 └── outputs/
-    └── charts/       # графики EDA и эксперимента, скрины и схема базы данных наглядная
+|   └── charts/       # графики EDA и эксперимента, скрины и схема базы данных наглядная
+├── tests/            # тесты
+│   ├── conftest.py
+│   ├── test_importer.py
+│   ├── test_attribution.py
 ```
 
 ### Что где смотреть
