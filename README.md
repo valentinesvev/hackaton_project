@@ -70,6 +70,7 @@ ATTRIBUTION_WINDOW_DAYS=30
 Из корня проекта:
 
 ```bash
+cd src
 python -m bot.main
 ```
 
