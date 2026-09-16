@@ -42,6 +42,7 @@ hackaton_project/
 
 ```bash
 pip install -r requirements.txt
+
 ```
 
 ### 2. Настроить `.env`
@@ -64,6 +65,15 @@ ATTRIBUTION_WINDOW_DAYS=30
 ```
 
 `BOT_TOKEN`, `HASH_SALT`, `.env` и `data/bot.db` не должны попадать в GitHub.
+
+
+## Проверка
+
+После установки зависимостей запустите автоматические тесты из корня проекта:
+
+```bash
+pytest -q
+```
 
 ### 3. Запустить
 
