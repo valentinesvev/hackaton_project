@@ -111,6 +111,7 @@ cp .env.example .env
 Запустите:
 
 ```bash
+cd src
 python -m bot.main
 ```
 
